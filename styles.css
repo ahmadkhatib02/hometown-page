@@ -1,0 +1,117 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px;
+}
+
+#hero{
+    background-image: url(images/town.jpeg);
+    background-size: cover;
+    padding: 119px 154px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catch-phrase, .brief-description{
+    color: rgb(255, 255, 255);
+}
+.catch-phrase{
+    background-color: #1D3557;
+    padding: 5px 15px;
+    font-size: 35px;
+    margin: 0px 0px 10px 0px;
+}
+.brief-description{
+    background-color: #457B9D;
+    font-size: 19px;
+    padding: 8px 30px;
+    margin: 0px 0px;
+}
+
+#activities{
+    padding: 40px 0px 0px 0px;
+    background-color: #F1FAEE;
+    height: 400px;
+}
+
+.to-do-title{
+    color: #1D3557;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 700px;
+}
+
+#row-flux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.activity{
+    width: 198px;
+    height: 226px;
+}
+
+.activity-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; 
+}
+
+.activity-title, .activity-description{
+    color: #1D3557;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.activity-title{
+    font-weight: 700;
+    margin: 10px 0px 0px 0px;
+}
+
+.activity-description{
+    font-weight: 400;
+    margin: 10px 0px 0px 0px;
+}
+
+#guide{
+    height: 250px;
+    width: 400px;
+    margin: 50px auto 20px auto;
+    padding: 25px 4px 15px 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #A8DADC;
+    border-bottom: 8px solid #1D3557;
+}
+
+.pfp-picture{
+    width: 180px;
+    height: 250px;
+}
+
+#guide,.pfp-picture, .catch-phrase, .brief-description{
+    border-radius: 15px;
+}
+
+.guide-title, .name, .cv{
+    color:#1D3557;
+    font-weight: 700;
+}
+
+.guide-title{
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.cv{
+    font-size: 16px;
+    line-height: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
